@@ -2,18 +2,20 @@
 
 /**
  * swap_ints - Swap two integers in an array.
- * @: The first integer to swap.
+ * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
 void swap_ints(int *a, int *b)
 {
 	int tmp;
+
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
 }
 /**
- * shell_sort - sort an array of integers in ascending order using the shell sort algorithm.
+ * shell_sort - sort an array of integers in ascending order
+ * using the shell sort algorithm.
  * @array: an array of integers.
  * @size: The size of the array.
  *
