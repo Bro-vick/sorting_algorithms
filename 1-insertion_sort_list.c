@@ -35,6 +35,6 @@ void insertion_sort_list(listint_t **list)
 			print_list(*list);
 			node = node->prev;
 		}
-		node = node->prev;
+		node = node->next;
 	}
 }
