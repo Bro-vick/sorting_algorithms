@@ -32,5 +32,6 @@ void insertion_sort_list(listint_t **list);
 void quick_sort(int *array, size_t size);
 void quick_s(int *array, int lo, int hi, size_t size);
 void selection_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
 
 #endif  /* __SORT__ */
